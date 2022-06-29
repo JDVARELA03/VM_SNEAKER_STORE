@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VM sneaker</title>
+  <link rel="stylesheet" href="Prueba.pagina.css">
+  <script src="Prueba.pagina.js"></script>
+</head>
+<body>
+  <header>
+    <div class="Container_Superior">
+      <div class="logo">
+        <img src="./imagenes/VM icono.jpg" alt="">
+      </div>
+      <h2 class="title"> VM Sneaker Store</h2>
+      <div class="search">
+        <input id="Search_Barra" type="searc" placeholder="¿Que deseas buscar?"><button class="Search_boton" onclick="clickone()"><img src="../imagenes/search-interface-symbol.png" alt=""></button>
+      </div>
+    </div>
+    <div class="container_menu">
+      <div class="menu">
+        <input type="checkbox" id="check_menu">
+        <label for="check_menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lis icon_menu" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </label>
+      <nav>
+        <ul>
+          <li><a href="#" id="selected"></a></li>
+          <li><a href="#">Sneakers</a>
+            <ul>
+              <li><a href="">Adidas</a></li>
+              <li><a href="">Nike</a></li>
+              <li><a href="">Puma</a></li>
+              <li><a href="">New Balance</a></li>
+              <li><a href="">DC</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Hats</a></li>
+          <li><a href="#">Shirts</a></li>
+          <li><a href="#">About us</a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+  </header>
+  <main>
+    <section id="Background_fixed" class="large">
+       <div class="body">
+        <div class="container">
+          <div class="columna">
+            <div class="columna is-6">
+              <h1 class="Titulo">Sneakers VM store</h1>
+              <hr class="contenido-divido">
+              <h2 class="subtitulo">Here you can find <br> the sneakers of your <br>dreams.</h2>
+            </div>
+          </div>
+        </div>
+       </div>
+    </section><br><br>
+    <h1><marquee>Hola mundo</marquee></h1><br><br>
+    <div class="container_all">
+      <input type="radio" id="1" name="image-slide" hidden/>
+      <input type="radio" id="2" name="image-slide" hidden/>
+      <input type="radio" id="3" name="image-slide" hidden/>
+
+      <div class="slide">
+
+        <div class="image_slide">
+          <img src="./imagenes/carousel_img4.jpg" id="image_width" alt="">
+        </div>
+        <div class="image_slide">
+          <img src="./imagenes/carousel_img2.jpg" id="image_width" alt="">
+        </div>
+        <div class="image_slide">
+          <img src="./imagenes/carousel_img3.jpg" id="image_width" alt="">
+        </div>
+      </div>
+      <div class="pagination">
+        <label class="pagination_item" for="1">
+           <img src="./imagenes/carousel_img4.jpg" alt="">
+        </label>
+        <label class="pagination_item" for="2">
+          <img src="./imagenes/carousel_img2.jpg" alt="">
+       </label>
+       <label class="pagination_item" for="3">
+        <img src="./imagenes/carousel_img3.jpg" alt="">
+     </label>
+      </div>
+    </div><br><br><br>
+    <p>Hola mundo me llamo melo esto es una pagina de tenis</p>
+  </main>     
+</body>
+</html>
