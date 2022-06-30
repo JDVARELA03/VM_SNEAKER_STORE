@@ -327,17 +327,30 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 }
 /*Inicio de footer*/
 .footer_conten{
-    height: 200px;
+    height: 240px;
     align-items: center;
-    padding: 0;
     background-color: black;
     max-width: 1200px;
  } 
+ .logo_footer{
+    display: flex;
+    padding: 1px 20px;
+    align-items: center;
+ }
+ .titulo_footer{
+    color: white;
+    font-weight: 200px;
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+ }
+ .logo_footer img{
+   width: 40px;
+   border-radius: 80px;
+ }
  .contenedor {
     align-items: center;
-    justify-content: space-around;
-    display: flex;
-    padding: 30px;
+    padding: 10px 25px;
  }
  .contenedor a{
     text-decoration: none;
@@ -351,39 +364,44 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
  }
  .creditos{
     display: flex;
-    margin-top: 50px;
-    margin-bottom: auto;
-    align-items: center;
-    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
  }
- .creditos p{
-    color: wheat;
+ .creditos small{
+    color: white;
     display: flex;
     margin: auto;
     text-align: center;
  }
  .creditos a{
+    text-decoration: none;
+    color: #2C3E50;
     text-align: center;
     display: flex;
     margin: auto;
-    text-decoration: none;
+ }
+ .one{
+    width: 125px;
+ }
+ .two{
+    width: 125px;
+    margin-left: 6px;
  }
  .website {
-    align-items: center;
-   align-content: center;
-   display: inline;
-   margin-left: 450px;
-   margin-bottom: 90px;
+display: flex;
+justify-content: center;
+align-items: center;
  }
- 
  .website a{
     text-decoration: none;
+    display: flex;
+    padding-inline-start: 8px;
     color: white;
  }
  .website a:hover{
     color: #2C3E50;
     transition: all 300ms;
-    transform:scale(2);
+    transform:scale(1.5);
  }
 
 @keyframes autoplay{
