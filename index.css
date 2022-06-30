@@ -26,19 +26,13 @@ header{
 }
 .search input{
     width: 250px;
-    height: 43px;
+    height: 30px;
     padding: 10px;
-    background-color:  #EAEAEC;
-    color: black;
     border-radius: 5px;
 
 }
 .Search_boton{
-    height: 41.9px;
-    width: 40px;
-    border-radius: 4px;
-    align-items: center;
-    background-color: #7B7D7D;
+    align-items: center;   
 }
 .title{
     align-items: center;
@@ -331,6 +325,67 @@ input[id="3"]:checked ~ .slide{
 input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     background: white;
 }
+/*Inicio de footer*/
+.footer_conten{
+    height: 200px;
+    align-items: center;
+    padding: 0;
+    background-color: black;
+    max-width: 1200px;
+ } 
+ .contenedor {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 30px;
+ }
+ .contenedor a{
+    text-decoration: none;
+    color: white;
+ }
+ .contenedor a:hover{
+    color: #2C3E50;
+    transform: scale(1);
+    opacity:1;
+    transition: all 300ms;
+ }
+ .creditos{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: auto;
+    align-items: center;
+    width: 100%;
+ }
+ .creditos p{
+    color: wheat;
+    display: flex;
+    margin: auto;
+    text-align: center;
+ }
+ .creditos a{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+ }
+ .website {
+    align-items: center;
+   align-content: center;
+   display: inline;
+   margin-left: 450px;
+   margin-bottom: 90px;
+ }
+ 
+ .website a{
+    text-decoration: none;
+    color: white;
+ }
+ .website a:hover{
+    color: #2C3E50;
+    transition: all 300ms;
+    transform:scale(2);
+ }
+
 @keyframes autoplay{
     33%{
         transform: translate3d(calc(-100% * 0),0,0);
