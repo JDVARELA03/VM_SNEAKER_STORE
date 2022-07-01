@@ -5,13 +5,16 @@
     font-family: sans-serif;
     text-decoration: none;
 }
+.barra{
+    font-size: 18px;
+}
 /*Header*/
 header{
     width: 100%;
     position: relative;
     top: 0;
     left: 0;
-    background: rgb(232, 232, 232);
+    background: rgb(240, 240, 240);
 }
 .Container_Superior{
     max-width: 1200px;
@@ -32,6 +35,7 @@ header{
     height: 25px;
     padding: 7px;
     border-radius: 5px;
+    background-color: transparent;
 
 }
 .Search_boton{
@@ -77,7 +81,7 @@ header{
 .container_menu{
     width: 100%;
     height: 80px;
-    background-color:rgb(174, 218, 242);
+    background-color:rgb(143, 179, 183);
     padding: 0px 20px;
 
 }
@@ -131,12 +135,12 @@ nav > ul > li > a{
 }
 nav > ul > li > a:hover{
     transform: scale(1.1);
-    background: rgb(31, 53, 71);
+    background:  rgb(46, 95, 106);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 #selected{
     transform: scale(1,1);
-    background-color: rgb(31, 53, 71);
+    background-color: rgb(46, 95, 106);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5)
 }
 /*Final del menu principal*/
@@ -403,7 +407,7 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
  }
  .creditos a{
     text-decoration: none;
-    color: #2C3E50;
+    color:rgb(23, 25, 65);
     text-align: center;
     display: flex;
     margin: auto;
