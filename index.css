@@ -5,16 +5,13 @@
     font-family: sans-serif;
     text-decoration: none;
 }
-h3{
-    color: blue;
-}
 /*Header*/
 header{
     width: 100%;
     position: relative;
     top: 0;
     left: 0;
-    background: #2C3E50;
+    background: rgb(232, 232, 232);
 }
 .Container_Superior{
     max-width: 1200px;
@@ -24,27 +21,58 @@ header{
     justify-content: space-between;
     padding: 20px;
 }
+.register_buycar_search{
+    display: flex;
+    padding: 7px 8px;
+    justify-content: space-between;
+   
+}
 .search input{
-    width: 250px;
-    height: 30px;
-    padding: 10px;
+    width: 175px;
+    height: 25px;
+    padding: 7px;
     border-radius: 5px;
 
 }
 .Search_boton{
-    align-items: center;   
+   width: 25px;
+   cursor: pointer;
+   padding: 0 3px;
+}
+.register{
+    width: 25px;
+    color: black;
+    cursor: pointer;
+    padding: 0 3px;
+}
+.buycar{
+    width: 25px;
+    color: black;
+    cursor: pointer;
+    padding: 0 3px;
+}
+.buycar:hover,.register:hover,.Search_boton:hover{
+    color: gray;
 }
 .title{
     align-items: center;
     margin-right: auto;
-    color: white;
+    color: black;
     padding: 10px;
     font-weight: 300px;
 }
 .logo img{
-    width: 100px;
+    width:70px;
+    border-radius: 80px;
 }
 /*Final de Header*/
+.text-First{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /*Barra del Menu*/
 .container_menu{
     width: 100%;
@@ -342,10 +370,10 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     font-weight: 200px;
     display: flex;
     align-items: center;
-    padding: 15px 10px;
+    padding: 20px 10px;
  }
  .logo_footer img{
-   width: 40px;
+   width: 50px;
    border-radius: 80px;
  }
  .contenedor {
@@ -381,11 +409,13 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     margin: auto;
  }
  .one{
-    width: 125px;
- }
+    width: 100%;
+    background:whitesmoke;
+}
  .two{
-    width: 125px;
+    width: 100%;
     margin-left: 6px;
+    background:whitesmoke
  }
  .website {
 display: flex;
