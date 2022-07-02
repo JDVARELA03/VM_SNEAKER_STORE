@@ -5,6 +5,9 @@
     font-family: sans-serif;
     text-decoration: none;
 }
+.fondo_principal{
+    background-color: rgb(240, 240, 240);
+}
 .barra{
     font-size: 18px;
 }
@@ -34,7 +37,7 @@ header{
     width: 175px;
     height: 25px;
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: transparent;
 
 }
@@ -67,13 +70,13 @@ header{
 }
 
 .logo img{
-    width:70px;
-    border-radius: 80px;
+    width:60px;
 }
 /*Final de Header*/
 .text-First{
     font-size: 22px;
     display: flex;
+    padding: 40px 0px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -230,8 +233,8 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: 10px solid rgb(113, 113, 113);
-    border-bottom: 10px solid rgb(113, 113, 113);
+    border-top: 10px solid rgb(164, 164, 164);
+    border-bottom: 10px solid rgb(164, 164, 164);
 }
 .Titulo{
     align-items: center;
@@ -359,6 +362,65 @@ input[id="3"]:checked ~ .slide{
 input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     background: white;
 }
+/*contenido tenis nike*/
+.title-NIKE{
+    display: flex;
+    margin: auto;
+    padding: 10px 0px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.Vermas{
+    display: flex;
+    padding: 30px;
+    border-radius: 3px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.Vermas button{
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    transition: all 300ms;
+}
+.Vermas button:hover{
+    transform: scale(1.2);
+    background: black;
+    border-radius: 3px;
+    color: white;
+}
+.content_sneaker{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px 35px;
+}
+.image-nike{
+    width: 125px;
+    height: 125px;
+}
+.nike_uno p,.nike_dos p,.nike_tres p,.nike_cuatro p{
+    font-size: 15px;
+    padding: 2px 2px;
+}
+.nike_uno small,.nike_dos small,.nike_tres small,.nike_cuatro small{
+   padding: 0px 25px 0px 0px ;
+}
+.nike_uno button,.nike_dos button,.nike_tres button,.nike_cuatro button{
+    padding: 0 4px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.nike_uno button:hover,.nike_dos button:hover,.nike_tres button:hover,.nike_cuatro button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    border-radius: 2px;
+
+}
 /*Inicio de footer*/
 .footer_conten{
     height: 240px;
@@ -381,6 +443,12 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
  .logo_footer img{
    width: 50px;
    border-radius: 80px;
+ }
+ .text_slide{
+    width: 300px;
+    color: black;
+    display: flex;
+    margin: auto;
  }
  .contenedor {
     align-items: center;
@@ -515,5 +583,26 @@ align-items: center;
         opacity: 1;
         visibility: visible;
     }
+    /*Seccion de Tenis*/
+    .image-nike{
+        width: 90px;
+        height: 90px;
+    }
+    .nike_cuatro{
+        display: none;
+    }
+    .nike_uno p,.nike_dos p,.nike_tres p{
+        font-size: 12px;
+        padding: 1px 1px;
+    }
+    .nike_uno small,.nike_dos small,.nike_tres small{
+       padding: 0px 5px 0px 0px ;
+    }
+    .nike_uno button,.nike_dos button,.nike_tres button{
+        padding: 0 2px;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+    /*Final de Seccion de Tenis*/
 }
 /*Final web responsive*/
