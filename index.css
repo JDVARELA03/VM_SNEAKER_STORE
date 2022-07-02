@@ -401,6 +401,11 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 .image-nike{
     width: 125px;
     height: 125px;
+    transition: all 300ms;
+}
+.image-nike:hover{
+    transform: scale(1.2);
+    z-index: 5;
 }
 .nike_uno p,.nike_dos p,.nike_tres p,.nike_cuatro p{
     font-size: 15px;
