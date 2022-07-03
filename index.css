@@ -267,7 +267,7 @@ main{
   /*Final imagen fijada*/
   /*Carrousel*/
   #image_width{
-    width: 700px;
+    width: 600px;
     height: 300px;
   }
   img{
@@ -277,7 +277,7 @@ main{
     margin: auto;
     position: relative;
     max-width: 1200px;
-    width: 60%;
+    width: 50%;
     border-radius: 6px;
     overflow: hidden;
 }
@@ -589,6 +589,9 @@ align-items: center;
         visibility: visible;
     }
     /*Seccion de Tenis*/
+    .text_slide{
+        width: 200px;
+    }
     .image-nike{
         width: 90px;
         height: 90px;
