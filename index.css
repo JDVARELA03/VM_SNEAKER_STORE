@@ -267,18 +267,18 @@ main{
   /*Final imagen fijada*/
   /*Carrousel*/
   #image_width{
-    width: 750px;
-    height: 320px;
+    width: 700px;
+    height: 330px;
   }
   img{
     max-width: 1200px;
-    width: 750px;
+    width: 700px;
   }
  .container_all{
     margin: auto;
     position: relative;
     max-width: 1200px;
-    width: 65%;
+    width: 62%;
     border-radius: 6px;
     overflow: hidden;
 }
@@ -337,6 +337,7 @@ main{
 .pagination_item img{
     display: inline-block;
     max-width: none;
+    width: 100%;
     height: 100%;
     transform: scale(1);
     opacity: 0;
@@ -611,7 +612,18 @@ align-items: center;
     #image_width{
         width: auto;
     }
-
+    #image_width{
+        width: 450px;
+        height: 280px;
+      }
+     .container_all{
+        margin: auto;
+        position: relative;
+        max-width: 1200px;
+        width: 81%;
+        border-radius: 6px;
+        overflow: hidden;
+    }
     .container_menu{
     padding: 10px;
 
