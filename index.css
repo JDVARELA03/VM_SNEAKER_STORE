@@ -34,7 +34,7 @@ header{
    
 }
 .search input{
-    width: 175px;
+    width: 165px;
     height: 25px;
     padding: 7px;
     border-radius: 6px;
@@ -268,7 +268,7 @@ main{
   /*Carrousel*/
   #image_width{
     width: 600px;
-    height: 300px;
+    height: 310px;
   }
   img{
     max-width: 1200px;
@@ -299,6 +299,12 @@ main{
     flex-grow: 0;
     max-width: 100%;
 }
+.text_slide{
+    width: 300px;
+    color: black;
+    display: flex;
+    margin: auto;
+ }
 .pagination{
     position: absolute;
     bottom: 20px;
@@ -455,6 +461,15 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 .novedades:hover{
     transform: scale(1.2);
 }
+.creditos small a{
+    color: white;
+    font-size: 15px;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 2ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
 .novedades h2{
     color: white;
     animation-name: example;
@@ -509,12 +524,6 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
  .logo_footer img{
    width: 50px;
    border-radius: 80px;
- }
- .text_slide{
-    width: 300px;
-    color: black;
-    display: flex;
-    margin: auto;
  }
  .contenedor {
     align-items: center;
@@ -678,6 +687,19 @@ align-items: center;
         padding: 5px 0px;
         justify-content: center;
         text-transform: uppercase;
+    }
+    .novedades{
+        width: 90%;
+    }
+    #uno{
+        width: 130px;
+        background:wheat;
+        margin-right: 7px;
+    }
+    #dos{
+        width: 130px;
+        margin-left: 7px;
+        background:wheat;
     }
     /*Final de Seccion de Tenis*/
 }
