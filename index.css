@@ -267,17 +267,18 @@ main{
   /*Final imagen fijada*/
   /*Carrousel*/
   #image_width{
-    width: 600px;
-    height: 310px;
+    width: 750px;
+    height: 320px;
   }
   img{
     max-width: 1200px;
+    width: 750px;
   }
  .container_all{
     margin: auto;
     position: relative;
     max-width: 1200px;
-    width: 50%;
+    width: 65%;
     border-radius: 6px;
     overflow: hidden;
 }
@@ -610,6 +611,7 @@ align-items: center;
     #image_width{
         width: auto;
     }
+
     .container_menu{
     padding: 10px;
 
@@ -660,7 +662,7 @@ align-items: center;
     }
     /*Seccion de Tenis*/
     .text_slide{
-        width: 200px;
+        width: 100px;
     }
     .image-nike{
         width: 90px;
