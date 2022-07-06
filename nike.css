@@ -226,6 +226,7 @@ main{
 .footer_conten{
     height: 240px;
     align-items: center;
+    margin-bottom: auto;
     background-color: black;
     max-width: 1200px;
  } 
