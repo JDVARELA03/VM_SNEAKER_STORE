@@ -17,7 +17,7 @@ header{
     position: relative;
     top: 0;
     left: 0;
-    background: rgb(240, 240, 240);
+    background: rgb(250, 247, 247);
 }
 .Container_Superior{
     max-width: 1200px;
@@ -51,15 +51,18 @@ header{
     color: black;
     cursor: pointer;
     padding: 0 3px;
+    transition: all 200ms;
 }
 .buycar{
     width: 25px;
     color: black;
     cursor: pointer;
     padding: 0 3px;
+    transition: all 200ms;
 }
-.buycar:hover,.register:hover,.Search_boton:hover{
+.buycar:hover,.register:hover{
     color: gray;
+    transform: scale(1.3);
 }
 .title{
     align-items: center;
@@ -374,6 +377,7 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 .title-NIKE{
     display: flex;
     margin: auto;
+    font-weight: 700;
     padding: 15px 0px;
     justify-content: center;
     text-transform: uppercase;
@@ -390,6 +394,7 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     text-transform: uppercase;
     cursor: pointer;
     width: 75px;
+    font-weight: 550;
     height: 35px;
     transition: all 300ms;
 }
@@ -417,17 +422,34 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 }
 .content_sneaker_new .new{
     display: flex;
-    font-size: 10px;
+    font-size: 12px;
     margin: auto;
+    font-weight: 600;
+    font-size: 12px;
     margin-left: 3px;
     align-items: center;
-    color: rgb(128, 0, 0);
+    color: rgb(205, 0, 0);
 }
 .image-nike{
     width: 125px;
     height: 125px;
     transition: all 350ms;
-    background:  rgb(240, 240, 240);
+}
+.image-nike_2{
+    width: 105px;
+    height: 105px;
+    transition: all 350ms;
+}
+.image-nike_3{
+    width: 110px;
+    height: 110px;
+    transition: all 350ms;
+}
+.image-nike_3:hover{
+    transform: scale(1.2);
+}
+.image-nike_2:hover{
+    transform: scale(1.2);
 }
 .image-nike:hover{
     transform: scale(1.2);
@@ -436,13 +458,16 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 .sneaker_uno p,.sneaker_dos p,.sneker_tres p,.sneaker_cuatro p{
     font-size: 15px;
     padding: 2px 2px;
+    font-weight: 400;
 }
 .sneaker_uno small,.sneaker_dos small,.sneaker_tres small,.sneaker_cuatro small{
    padding: 0px 25px 0px 0px ;
+   font-weight: 550;
 }
 .sneaker_uno button,.sneaker_dos button,.sneaker_tres button,.sneaker_cuatro button{
     padding: 0 4px;
     cursor: pointer;
+    font-weight: 700;
     transition: all 300ms;
 }
 .sneaker_uno button:hover,.sneaker_dos button:hover,.sneaker_tres button:hover,.sneaker_cuatro button:hover{
@@ -690,6 +715,9 @@ align-items: center;
         visibility: visible;
     }
     /*Seccion de Tenis*/
+    .Vermas button{
+        font-weight: 550;
+    }
     .text_slide{
         width: 150px;
     }
@@ -702,14 +730,17 @@ align-items: center;
     }
     .sneaker_uno p,.sneaker_dos p,.sneaker_tres p{
         font-size: 12px;
+        font-weight: 600;
         padding: 1px 1px;
     }
     .sneaker_uno small,.sneaker_dos small,.sneaker_tres small{
        padding: 0px 5px 0px 0px ;
+       font-weight: 550;
     }
     .sneaker_uno button,.sneaker_dos button,.sneaker_tres button{
         padding: 0 2px;
         cursor: pointer;
+        font-weight: 550;
         transition: all 300ms;
     }
     .title-NIKE{
