@@ -382,6 +382,22 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     justify-content: center;
     text-transform: uppercase;
 }
+.Vermas_uno{
+    display: flex;
+    padding: 5px 0px 60px 0px;
+    border-radius: 3px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.Vermas_uno button{
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 175px;
+    font-weight: 500;
+    height: 35px;
+    transition: all 300ms;
+}
 .Vermas{
     display: flex;
     padding: 30px;
@@ -398,7 +414,7 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     height: 35px;
     transition: all 300ms;
 }
-.Vermas button:hover{
+.Vermas button:hover,.Vermas_uno button:hover{
     transform: scale(1.2);
     background: black;
     border-radius: 3px;
@@ -436,13 +452,14 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     transition: all 350ms;
 }
 .image-nike_2{
-    width: 105px;
-    height: 105px;
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
     transition: all 350ms;
 }
 .image-nike_3{
-    width: 110px;
-    height: 110px;
+    width: 100px;
+    height: 100px;
     transition: all 350ms;
 }
 .image-nike_3:hover{
@@ -762,6 +779,18 @@ align-items: center;
         width: 130px;
         margin-left: 7px;
         background:wheat;
+    }
+    .image-nike_2{
+        width: 65px;
+        height: 65px;
+        margin-left: 5px;
+        transition: all 350ms;
+    }
+    .image-nike_3{
+        width: 75px;
+        height: 75px;
+        margin-left: 5px;
+        transition: all 350ms;
     }
     /*Final de Seccion de Tenis*/
 }
