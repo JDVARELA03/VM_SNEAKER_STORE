@@ -384,7 +384,7 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
 }
 .Vermas_uno{
     display: flex;
-    padding: 0px 0px 60px 0px;
+    padding: 0   px 0px 60px 0px;
     border-radius: 3px;
     justify-content: flex-end;
     flex-direction: column;

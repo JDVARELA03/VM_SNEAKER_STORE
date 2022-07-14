@@ -5,6 +5,9 @@
     font-family: sans-serif;
     text-decoration: none;
 }
+.background_colorfixed{
+    background-color: rgb(240, 240, 240);
+}
 .barra{
     font-size: 18px;
 }
@@ -222,6 +225,142 @@ main{
     height: 100%;
     display: none;
 }
+/*Contenido section nike*/
+.image-logonike img{
+    width: 170px;
+    padding: 0px 40px 0px 0px;
+    transition: all 400ms;
+}
+.image-logonike img:hover{
+    transform: scale(1.2);
+    
+}
+.container-all-nike{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px 0px;
+}
+.logo_name h1{
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 40px;
+}
+.logo_name p{
+    padding: 0 40px;
+}
+.container-all-nike h1{
+    color: white;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 6ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {color: rgb(76, 123, 122);}
+    5%   {color: rgb(41, 73, 99);}
+    10%   {color: rgb(58, 75, 132)}
+    15%   {color: rgb(94, 72, 131);}
+    20%   {color: rgb(93, 50, 85);}
+    25%   {color: rgb(152, 123, 48);}
+    30%   {color: rgb(144, 144, 144);}
+    35%   {color: rgb(41, 64, 35);}
+    40%   {color: rgb(69, 98, 97);}
+    45%  {color: rgb(92, 95, 138);}
+    50%  {color: rgb(32, 84, 75);}
+    55% {color: rgb(133, 176, 255);}
+    60% {color: rgb(205, 139, 234);}
+    65% {color: rgb(72, 95, 114);}
+    70% {color: rgb(138, 223, 181);}
+    75% {color: rgb(67, 45, 12);}
+    80% {color: rgb(136, 58, 40);}
+    85% {color: rgb(73, 24, 24);}
+    90% {color: rgb(60, 235, 127);}
+    95% {color: rgb(108, 62, 34);}
+    100% {color: rgb(91, 26, 61);}
+  }
+.logo_name p{
+    font-size: 20px;
+}
+.content_sneaker{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 60px 35px;
+}
+.content_sneaker_new{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px 0px 60px 0px;
+}
+.content_sneaker_new .new{
+    display: flex;
+    font-size: 12px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 3px;
+    align-items: center;
+    color: rgb(205, 0, 0);
+}
+.image-nike{
+    width: 125px;
+    height: 125px;
+    transition: all 350ms;
+}
+.image-nike_2{
+    width: 90px;
+    height: 90px;
+    margin-left: 5px;
+    transition: all 350ms;
+}
+.image-nike_3{
+    width: 100px;
+    height: 100px;
+    transition: all 350ms;
+}
+.image-nike_3:hover{
+    transform: scale(1.2);
+}
+.image-nike_2:hover{
+    transform: scale(1.2);
+}
+.image-nike:hover{
+    transform: scale(1.2);
+    z-index: 5;
+}
+.sneaker_uno p,.sneaker_dos p,.sneker_tres p,.sneaker_cuatro p{
+    font-size: 15px;
+    padding: 2px 2px;
+    font-weight: 400;
+}
+.sneaker_uno small,.sneaker_dos small,.sneaker_tres small,.sneaker_cuatro small{
+   padding: 0px 25px 0px 0px ;
+   font-weight: 550;
+}
+.sneaker_uno button,.sneaker_dos button,.sneaker_tres button,.sneaker_cuatro button{
+    padding: 0 4px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 300ms;
+}
+.sneaker_uno button:hover,.sneaker_dos button:hover,.sneaker_tres button:hover,.sneaker_cuatro button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    border-radius: 2px;
+
+}
 /*Inicio Footer*/
 .footer_conten{
     height: 240px;
@@ -362,5 +501,55 @@ align-items: center;
         position: static;
         opacity: 1;
         visibility: visible;
+    }
+    .image-nike{
+        width: 90px;
+        height: 90px;
+    }
+    .sneaker_cuatro{
+        display: none;
+    }
+    .sneaker_uno p,.sneaker_dos p,.sneaker_tres p{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 1px 1px;
+    }
+    .sneaker_uno small,.sneaker_dos small,.sneaker_tres small{
+       padding: 0px 5px 0px 0px ;
+       font-weight: 550;
+    }
+    .sneaker_uno button,.sneaker_dos button,.sneaker_tres button{
+        padding: 0 2px;
+        cursor: pointer;
+        font-weight: 550;
+        transition: all 300ms;
+    }
+    .image-logonike img{
+        width: 100px;
+        padding: 0px 0px 0px 0px;
+        transition: all 400ms;
+    }
+    .image-logonike img:hover{
+        transform: scale(1.2);
+        
+    }
+    .container-all-nike{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    .logo_name h1{
+        display: flex;
+        margin: auto;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0px 20px;
+    }
+    .logo_name p{
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: 600;
     }
 }
