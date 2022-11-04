@@ -34,12 +34,19 @@ header{
    
 }
 .search input{
+    outline: none;
     width: 165px;
     height: 25px;
-    padding: 7px;
+    padding: 12px;
     border-radius: 6px;
     background-color: transparent;
-
+    border: none;
+    transition: all 0.3s;
+    border-bottom: 1px solid rgb(109, 109, 109);
+}
+.search input:focus{
+    border: none;
+    box-shadow: 3px 3px 3px grey;
 }
 .Search_boton{
    width: 25px;
@@ -62,7 +69,7 @@ header{
 }
 .buycar:hover,.register:hover{
     color: gray;
-    transform: scale(1.3);
+    transform: translateY(-3px) scale(1.1);
 }
 .title{
     align-items: center;
@@ -74,6 +81,10 @@ header{
 
 .logo img{
     width:60px;
+    transition: all 0.3s;
+}
+.logo img:hover{
+    transform: translateY(-3px);
 }
 /*Final de Header*/
 .text-First{
@@ -136,12 +147,12 @@ nav > ul > li > a{
     align-items: center;
     padding: 10px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
     transition: all 300ms ease;
     font-weight: 500;
 }
 nav > ul > li > a:hover{
-    transform: scale(1.1);
+    transform: translateY(-4px) scale(1.1);
     background: rgb(54, 113, 127);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
@@ -190,7 +201,7 @@ nav ul li ul li a{
     padding: 6px;
     padding-left: 14px;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
     transition: all 300ms ease;
 }
@@ -381,6 +392,10 @@ input[id="3"]:checked ~ .pagination .pagination_item[for="3"]{
     padding: 15px 0px;
     justify-content: center;
     text-transform: uppercase;
+    transition: all 0.3s;
+}
+.title-NIKE:hover{
+    transform: translateY(-4px)scale(1.1);
 }
 .Vermas_uno{
     display: flex;
